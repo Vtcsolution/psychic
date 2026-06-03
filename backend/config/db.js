@@ -5,7 +5,7 @@ const connectDB = async () => {
     console.log('🔗 Connecting to MongoDB...');
     
     // Get the MONGO_URI
-    let mongoUri = process.env.DB_MONGODB_URL;
+    let mongoUri = process.env.MONGO_URI;
     
     // FORCE disable transactions in connection string
     if (mongoUri.includes('mongodb+srv://')) {

@@ -1406,7 +1406,7 @@ const PsychicChats = () => {
       if (response.data.success) {
         console.log(`🎉 Status updated to ${newStatus} successfully`);
         setPsychicStatus(newStatus);
-        toast.success(`Status set to ${newStatus.charAt(0).toUpperCase() + newStatus.slice(1)}`);
+        toast.success(`Statut défini sur${newStatus.charAt(0).toUpperCase() + newStatus.slice(1)}`);
         
         localStorage.setItem('lastStatusUpdate', JSON.stringify({
           time: new Date().toISOString(),

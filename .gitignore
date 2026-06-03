@@ -1,0 +1,33 @@
+# Environment variables - NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+*/dist/
+*/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads (user content)
+backend/uploads/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Editor
+.vscode/
+.idea/
